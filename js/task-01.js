@@ -6,3 +6,5 @@ categoriesEl.forEach(element => {
     const itemEl = element.querySelectorAll('li');
 console.log('Category:', titleEl.textContent, 'Element:', itemEl.length);
 });
+
+
