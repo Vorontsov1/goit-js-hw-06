@@ -14,7 +14,7 @@ const ingredientsEl = ingredients.map((ingredient) => {
       ingredientItem.classList.add("item");
   return ingredientItem;
 }); 
-document.querySelector("#ingredients").append(...ingredientEl);
+document.querySelector("#ingredients").append(...ingredientsEl);
 
 
 

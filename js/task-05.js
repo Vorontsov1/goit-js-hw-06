@@ -1,5 +1,5 @@
-const inputElem = document.querySelector('.#name-input');
-const outputElem = document.querySelector('.#name-output');
+const inputElem = document.querySelector('#name-input');
+const outputElem = document.querySelector('#name-output');
 
 
 inputElem.addEventListener('input', (event) => {

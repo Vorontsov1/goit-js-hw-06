@@ -1,7 +1,7 @@
-const inputElem = document.querySelector("#validation-input");
+const inputElem = document.querySelector('#validation-input');
 
 inputElem.addEventListener('blur', (event) => {
-    if (event.currentTarget.value.length === Number(inputElem.CDATA_SECTION_NODE.length)) {
+    if (event.currentTarget.value.length === Number(inputElem.dataset.length)) {
         inputElem.classList.add('valid');
         inputElem.classList.remove('invalid');
     } else {
@@ -9,3 +9,4 @@ inputElem.addEventListener('blur', (event) => {
         inputElem.classList.remove('valid');
 }
 });
+
